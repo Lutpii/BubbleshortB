@@ -40,5 +40,17 @@ namespace BubbleshortB
                 }
             }
         }
+        public void display()
+        {
+            // Menampilkan array yang tersusun
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" Element array yang telah tersusun ");
+            Console.WriteLine("-----------------------------------");
+            for (int j = 0; j < a.Length; j++)
+            {
+                Console.WriteLine(a[j]);
+            }
+            Console.WriteLine("");
+        }
     }
 }
